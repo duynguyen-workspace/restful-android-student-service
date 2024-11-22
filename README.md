@@ -26,9 +26,9 @@ This application integrates with a mock RESTful API provided by [mockAPI](https:
 ## Screenshots
 
 <p align="center">
-  <img src="./assets/main_page.png" alt="Main Page" width="30%">
-  <img src="./assets/create_student.png" alt="Create Student Page" width="30%">
-  <img src="./assets/update_student.png" alt="Update Student Page" width="30%">
+  <img src="./assets/Home.png" alt="Main Page" width="33%">
+  <img src="./assets/StudentForm.png" alt="Create Student Page" width="33%">
+  <img src="./assets/StudentUpdate.png" alt="Update Student Page" width="33%">
 </p>
 
 ## How It Works
