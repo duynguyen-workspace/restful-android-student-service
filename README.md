@@ -26,13 +26,13 @@ This application integrates with a mock RESTful API provided by [mockAPI](https:
 ## Screenshots
 
 ### 1. Main Page (View Students)
-![Main Page](./assets/main_page.png)
+![Main Page](./assets/Home.png)
 
 ### 2. Create Student Page
-![Create Student Page](./assets/create_student.png)
+![Create Student Page](./assets/StudentForm.png)
 
 ### 3. Update Student Page
-![Update Student Page](./assets/update_student.png)
+![Update Student Page](./assets/StudentUpdate.png)
 
 ## How It Works
 
