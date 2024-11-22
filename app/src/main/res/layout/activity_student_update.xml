@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E0E0"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".StudentUpdateActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/label_id"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/updateId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#E2DBDB"
+                    android:padding="5dp"
+                    android:text="@string/string_id"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/label_old_name"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/currentName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="15dp"
+                android:autofillHints="Example"
+                android:background="#FDDADA"
+                android:clickable="false"
+                android:contentDescription="@string/hint_input_name"
+                android:ems="20"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/label_new_name"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/inputNewName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="15dp"
+                android:autofillHints="Example"
+                android:background="#EBFBEB"
+                android:clickable="false"
+                android:contentDescription="@string/hint_input_name"
+                android:ems="20"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="updateStudent"
+                android:text="@string/button_update" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

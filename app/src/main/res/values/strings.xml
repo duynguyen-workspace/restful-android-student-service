@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RESTFUL Student Service</string>
+    <string name="student_list">Student Service</string>
+    <string name="hint_input_name">Enter student name…</string>
+    <string name="hint_input_id">Enter student ID…</string>
+    <string name="string_id">1</string>
+    <string name="string_name">Andy Cole</string>
+    <string name="button_add">Add Student</string>
+    <string name="btn_add">Add new student</string>
+    <string name="label_id">ID:</string>
+    <string name="label_old_name">Current Name:</string>
+    <string name="label_new_name">New Name:</string>
+    <string name="button_update">Update Student</string>
+    <string name="label_input_id">Student ID:</string>
+    <string name="label_input_name">Student Name:</string>
+</resources>
